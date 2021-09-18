@@ -3,6 +3,7 @@ anyio==3.1.0
 asgiref==3.3.1
 astunparse==1.6.3
 async-generator==1.10
+#atari-py==0.2.6 # old version
 atari-py==0.2.9
 attrs==20.3.0
 Babel==2.9.0
@@ -32,21 +33,27 @@ filelock==3.0.12
 Flask==1.1.2
 flatbuffers==1.12
 future==0.18.2
-gast==0.3.3
+#gast==0.3.3
+gast
 gensim==3.8.3
 google-auth==1.25.0
 google-auth-oauthlib==0.4.2
 google-pasta==0.2.0
 googleapis-common-protos==1.52.0
-grpcio==1.32.0
+#grpcio==1.32.0
+#grcpio
 gym==0.18.0
-h5py==2.10.0
+#h5py==2.10.0
+h5py
 HeapDict==1.0.1
 idna==2.10
 imageio==2.9.0
 importlib-resources==5.1.0
 ipykernel==5.4.3
-ipython==7.19.0
+#ipython==7.19.0 # weird issue
+#ipython==7.16.0 # weird issue
+#ipython==7.27.0
+ipython
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
 jedi==0.17.2
@@ -62,7 +69,8 @@ jupyterlab==3.0.7
 jupyterlab-pygments==0.1.2
 jupyterlab-server==2.2.0
 kaggle==1.5.10
-Keras==2.4.3
+#Keras==2.4.3
+Keras
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 keyboard==0.13.5
@@ -84,7 +92,8 @@ oauthlib==3.1.0
 opencv-python==4.4.0.46
 opt-einsum==3.3.0
 packaging==20.9
-pandas==1.2.1
+#pandas==1.2.1
+pandas
 pandocfilters==1.4.3
 parso==0.7.1
 pexpect==4.8.0
@@ -125,11 +134,13 @@ smart-open==4.1.2
 sniffio==1.2.0
 soupsieve==2.1
 sqlparse==0.4.1
-tensorboard==2.4.0
+#tensorboard==2.4.0
+tensorboard
 tensorboard-plugin-wit==1.8.0
 tensorboardX==2.1
 tensorflow-datasets==4.2.0
-tensorflow-estimator==2.4.0
+#tensorflow-estimator==2.4.0
+tensorflow-estimator
 #tensorflow-gpu==2.5.0
 tensorflow-hub==0.11.0
 tensorflow-metadata==0.27.0
@@ -144,7 +155,8 @@ torch==1.7.0
 torchvision==0.8.1
 tornado==6.1
 tqdm==4.56.0
-traitlets==5.0.5
+#traitlets==5.0.5
+traitlets
 typing-extensions==3.7.4.3
 urllib3==1.26.2
 wcwidth==0.2.5

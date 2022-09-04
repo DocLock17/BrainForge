@@ -1,0 +1,4 @@
+Github Personal Access Token:
+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
+
+Use as password when you need to commit back to repo and only store it encrypted to minimize risk of breach
